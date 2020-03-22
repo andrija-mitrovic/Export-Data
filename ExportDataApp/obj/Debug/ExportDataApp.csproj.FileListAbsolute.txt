@@ -1,0 +1,11 @@
+D:\Projects\WinForms\ExportDataApp\ExportDataApp\bin\Debug\ExportDataApp.exe.config
+D:\Projects\WinForms\ExportDataApp\ExportDataApp\bin\Debug\ExportDataApp.exe
+D:\Projects\WinForms\ExportDataApp\ExportDataApp\bin\Debug\ExportDataApp.pdb
+D:\Projects\WinForms\ExportDataApp\ExportDataApp\bin\Debug\ExportDataApp.Core.dll
+D:\Projects\WinForms\ExportDataApp\ExportDataApp\bin\Debug\ExportDataApp.Core.pdb
+D:\Projects\WinForms\ExportDataApp\ExportDataApp\obj\Debug\ExportDataApp.csprojResolveAssemblyReference.cache
+D:\Projects\WinForms\ExportDataApp\ExportDataApp\obj\Debug\ExportDataApp.Main.resources
+D:\Projects\WinForms\ExportDataApp\ExportDataApp\obj\Debug\ExportDataApp.Properties.Resources.resources
+D:\Projects\WinForms\ExportDataApp\ExportDataApp\obj\Debug\ExportDataApp.csproj.GenerateResource.Cache
+D:\Projects\WinForms\ExportDataApp\ExportDataApp\obj\Debug\ExportDataApp.exe
+D:\Projects\WinForms\ExportDataApp\ExportDataApp\obj\Debug\ExportDataApp.pdb

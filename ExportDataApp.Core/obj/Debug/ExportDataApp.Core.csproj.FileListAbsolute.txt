@@ -1,0 +1,5 @@
+D:\Projects\WinForms\ExportDataApp\ExportDataApp.Core\bin\Debug\ExportDataApp.Core.dll
+D:\Projects\WinForms\ExportDataApp\ExportDataApp.Core\bin\Debug\ExportDataApp.Core.pdb
+D:\Projects\WinForms\ExportDataApp\ExportDataApp.Core\obj\Debug\ExportDataApp.Core.csprojResolveAssemblyReference.cache
+D:\Projects\WinForms\ExportDataApp\ExportDataApp.Core\obj\Debug\ExportDataApp.Core.dll
+D:\Projects\WinForms\ExportDataApp\ExportDataApp.Core\obj\Debug\ExportDataApp.Core.pdb
