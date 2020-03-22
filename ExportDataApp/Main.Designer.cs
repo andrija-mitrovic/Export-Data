@@ -52,7 +52,7 @@
             this.dgvView.Location = new System.Drawing.Point(43, 90);
             this.dgvView.Name = "dgvView";
             this.dgvView.RowTemplate.Height = 24;
-            this.dgvView.Size = new System.Drawing.Size(1027, 546);
+            this.dgvView.Size = new System.Drawing.Size(1013, 546);
             this.dgvView.TabIndex = 1;
             // 
             // btnExcel
@@ -86,7 +86,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1109, 729);
+            this.ClientSize = new System.Drawing.Size(1099, 729);
             this.Controls.Add(this.btnDbf);
             this.Controls.Add(this.btnCsv);
             this.Controls.Add(this.btnExcel);

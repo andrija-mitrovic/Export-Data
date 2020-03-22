@@ -9,3 +9,4 @@ D:\Projects\WinForms\ExportDataApp\ExportDataApp\obj\Debug\ExportDataApp.Propert
 D:\Projects\WinForms\ExportDataApp\ExportDataApp\obj\Debug\ExportDataApp.csproj.GenerateResource.Cache
 D:\Projects\WinForms\ExportDataApp\ExportDataApp\obj\Debug\ExportDataApp.exe
 D:\Projects\WinForms\ExportDataApp\ExportDataApp\obj\Debug\ExportDataApp.pdb
+D:\Projects\WinForms\ExportDataApp\ExportDataApp\bin\Debug\Advantage.Data.Provider.dll
