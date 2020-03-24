@@ -34,6 +34,10 @@ namespace ExportDataApp.Core.Services
                 CreateDbfFile(dt, _path);
                 InsertDataDbf(dt);
             }
+            else
+            {
+                throw new Exception("You must insert table name!");
+            }
         }
 
         private void InsertDataDbf(DataTable dt)
@@ -57,7 +61,7 @@ namespace ExportDataApp.Core.Services
                         switch (type)
                         {
                             case "System.String":
-                                type = "char(30)";
+                                type = "char(50)";
                                 break;
                             case "System.Boolean":
                                 type = "char(10)";

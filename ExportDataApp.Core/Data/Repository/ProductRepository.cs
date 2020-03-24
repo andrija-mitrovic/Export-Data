@@ -24,22 +24,28 @@ namespace ExcelReportApp.Core.Data.Repository
 
         public void InsertProducts(string tableName, DataTable dt, IDbConnection connection)
         {
-            string str = "";
-            for (int i = 0; i < 100; i++)
+            foreach (DataRow row in dt.Rows)
             {
-                foreach (DataRow row in dt.Rows)
+                string insertSql = $"INSERT INTO {tableName} (";
+                foreach (DataColumn column in dt.Columns)
                 {
-                    str = $"INSERT INTO {tableName} (sifra,barco,naziv,jedmj,pakov,zempo,roktr) VALUES (";
-                    str += row["sifra"] + ",";
-                    str += "'" + row["barco"].ToString().Trim(' ') + "',";
-                    str += "'" + row["naziv"].ToString().Trim(' ') + "',";
-                    str += "'" + row["jedmj"].ToString().Trim(' ') + "',";
-                    str += row["pakov"].ToString().Replace(".", "").Replace(",", ".") + ",";
-                    str += "'" + row["zempo"].ToString().Trim(' ') + "',";
-                    str += row["roktr"] + ");";
-
-                    connection.ExecuteInsertQuery(str);
+                    insertSql += column.ColumnName + ",";
                 }
+
+                insertSql = insertSql.Substring(0, insertSql.Length - 1) + ") VALUES (";
+
+                string insertRow = "";
+                for (int i = 0; i < dt.Columns.Count; i++)
+                {
+                    if (row[i].GetType() == typeof(string) || row[i].GetType() == typeof(DateTime) || row[i] == DBNull.Value)
+                        insertRow += "'" + row[i].ToString().Trim(' ') + "',";
+                    else
+                        insertRow += row[i] + ",";
+                }
+
+                insertSql += insertRow.Substring(0, insertRow.Length - 1) + ")";
+
+                connection.ExecuteInsertQuery(insertSql);
             }
         }
     }
